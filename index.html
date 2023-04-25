@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+    
+</head>
+<body>
+    <section class="geral">
+        <section class="quadrado">
+            <section class="telinha" id="telinha">
+                0
+            </section>
+        </section>
+        <div class="botoes-1">
+            <button class="botao" id="limpar" onclick="limpar()">
+                CE
+            </button>
+            <button class="botao" id="divisao"  onclick="apertado(event);" >
+                /
+            </button>
+            <button class="botao" id="botaosete" onclick="apertado(event);">
+                7
+            </button>
+            <button class="botao"  onclick="apertado(event);">
+                8
+            </button>
+            <button class="botao"  onclick="apertado(event)">
+                9
+            </button>
+            <button class="botao"  onclick="apertado(event);">
+                *
+            </button>
+        </div>
+        
+        <div class="botoes-2">
+            <button class="botao"  onclick="apertado(event);">
+                4
+            </button>
+            <button class="botao"  onclick="apertado(event);">
+                5
+            </button>
+            <button class="botao"  onclick="apertado(event);">
+                6
+            </button>
+            <button class="botao" id="menos"  onclick="apertado(event);">
+                -
+            </button>
+        </div>
+        <div class="botoes-3">
+            <button class="botao" id="um"  onclick="apertado(event);">
+                1
+            </button>
+            <button class="botao"  onclick="apertado(event);">
+                2
+            </button>
+            <button class="botao"  onclick="apertado(event);">
+                3
+            </button>
+            <button class="botao"  onclick="apertado(event);">
+                +
+            </button>
+        </div>
+        
+        <div class="botoes-4">
+            <button class="botao" id="zero"  onclick="apertado(event);">
+                0
+            </button>
+            <button class="botao" id="ponto"  onclick="apertado(event);">
+                .
+            </button>
+            <button class="botao" id="igual"  onclick="resultado();" >
+                =
+            </button>
+        </div>
+    </section>
+
+
+
+    <script src="calculadora.js" defer></script>
+</body>
+</html>

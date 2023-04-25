@@ -1,0 +1,101 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+        align-items: center;
+        background: linear-gradient(320deg,#8f4255,#8e65cf,#2480a5);
+        display: flex;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-display: swap;
+        height: inherit;
+        justify-content: center;
+        font-size: 25;
+    }
+    
+.geral{
+        position:absolute;
+        background: rgb(225, 255, 255,0,30);
+        box-shadow:0 5px 30px rgb(90, 4, 107);
+        height: 90%;
+        border-radius: 70px;
+        padding: 25;
+        
+    }
+    
+.botao{
+        background:#c0c6d4be;
+        width: 90px;
+        border-radius: 60px;
+        color: rgb(0, 0, 0);
+        margin-top: 15;
+        padding: 25;
+        font-size: x-large;
+
+    }
+    
+.botao:hover{
+        background: rgb(240, 239, 237);
+        width: 89px;
+    }
+
+ #divisao{
+        position: absolute;
+        top: -150;
+        right: 25 ;
+        margin-top: 257;
+        padding: 15;
+        }
+#igual{
+        position: absolute;
+        right: 25;
+        background: #ffab07;
+    }
+#ponto{
+    position: absolute;
+    left: 217;
+    padding: 25;
+}
+#ponto:hover{
+    background: rgb(233, 231, 231);
+    width: 89px;
+}
+#zero{
+    position: relative;
+    padding-right: 42%;
+    padding: auto;
+}
+#zero:hover{
+    background: rgb(233, 229, 229);
+    width: 90px;
+}
+
+#limpar{
+    position: absolute;
+    width: 89px;
+    right: 25;
+    padding: 9;
+    top: 27;
+    background:rgb(19, 18, 18);
+    color: #ffb703;
+}
+
+.telinha{
+    backdrop-filter: blue(0,25px);
+    background: #fcfcfcd8;
+    border-radius: 55px;
+    padding-bottom: 5px;
+    padding: 14%;
+    padding-left: 16%;
+    width: 74%;
+    font-size: 29px;
+    font-style: italic;
+}
